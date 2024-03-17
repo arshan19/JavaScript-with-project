@@ -30,6 +30,8 @@ console.log(real_another_array);
 //+++++++++Select the array, covert the array,etc.++++++ 
 
 console.log(Array.isArray("Hitesh")) // returns false
+
+//The Array.from() static method creates a new, shallow-copied Array instance from an iterable or array-like object.
 console.log(Array.from("Hitesh"))//convert it into array
 console.log(Array.from({name: "hitesh"})) //interesting ,ans: [], because you have to give it , what array we want to make , like key value pairs or anything like that{learn it more further when we make a project in future}
 
