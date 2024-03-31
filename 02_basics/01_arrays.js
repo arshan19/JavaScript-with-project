@@ -21,14 +21,14 @@ myArr.shift() //remove at start of array
 console.log(myArr.includes(9)); //RETURN in true/false (Boolean type) 
 console.log(myArr.indexOf(3)); //answer : 3 , fourth elemnt in myArr
 
-const newArr = myArr.join() //convert thr array to string (also bind it)
+const newArr = myArr.join() //convert the array to string (also bind it)
 
 console.log(myArr);
 console.log( newArr);
 
 
 // +++++++++++slice , splice+++++++++++++++++
-/*remenber Array Start from 0th position */
+/*remember Array Start from 0th position */
 const arrTocheck = [0, 1, 2, 3, 4, 5]
 console.log("A ", arrTocheck);
 

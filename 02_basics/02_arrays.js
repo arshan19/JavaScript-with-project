@@ -8,14 +8,14 @@ console.log(marvel_heros);
 answer: [ 'thor', 'Ironman', 'spiderman', [ 'superman', 'flash', 'batman' ] ] */
 
 console.log(marvel_heros[3][1]); 
-//ans:flash, which is not good so we use concat for getting the array added with other array , not the array nesting here 
+//ans:flash, which is not good so we want to concat the array into the previous array , but instead we get the result in nested arrays format
 
 const allHeros = marvel_heros.concat(dc_heros)
 console.log(allHeros); 
 //but this is not the best practise , mostly developer use spread operator to connect multiple arrays.
 
 
-//example of breaking the glass and spread into pieces, so this is same with spread operator it will break and spread the elements together
+//example of breaking the glass and spread into pieces, so this is same with spread operator it will break and spread the elements of the array and then we will put up these values which comes out from array and use it accordingly : whether to put in some new array or anything else 
 const all_new_heros = [...marvel_heros, ...dc_heros]
 
 console.log(all_new_heros);
@@ -27,12 +27,15 @@ const real_another_array = another_array.flat(Infinity)
 
 console.log(real_another_array);
 
-//+++++++++Select the array, covert the array,etc.++++++ 
+//+++++++  Select the array, convert the array, etc.  ++++++ 
 
-console.log(Array.isArray("Hitesh")) // returns false
+console.log(Array.isArray("Hitesh")) // Expected output: false
+//console.log(Array.isArray([1, 3, 5])); // Expected output: true
 
 //The Array.from() static method creates a new, shallow-copied Array instance from an iterable or array-like object.
-console.log(Array.from("Hitesh"))//convert it into array
+
+console.log(Array.from("Hitesh")) //convert it into array
+
 console.log(Array.from({name: "hitesh"})) //interesting ,ans: [], because you have to give it , what array we want to make , like key value pairs or anything like that{learn it more further when we make a project in future}
 
 let score1 = 100
