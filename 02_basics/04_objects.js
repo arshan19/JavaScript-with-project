@@ -76,11 +76,11 @@ console.log(instructor);
 //API's In json format :Note:both of these below are JSON format
 
 
-{
-    "name": "hitesh",
-    "coursename": "js in hindi",
-    "price": "free"
-}
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
 
 //Api can also come in this format as well like array in which we more array and more objects like nested and everything
 
