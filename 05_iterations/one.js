@@ -2,7 +2,7 @@
 
 /* -----------------for loop execution and how it works--------------------
 
-1. the let i = 0  will execute and then 
+1. the let i = 0  will execute and then (note: it will execute only once ,like the starting)
 2. i <= 10 which check for is i is less than 10 if true then it will go inside the blocked scope exwcution
 3. then it will go inside the scope and execute whatever the condition we apply
     const element = i;
