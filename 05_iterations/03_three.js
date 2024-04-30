@@ -11,6 +11,9 @@ for (const num of arr) {
 
 const greetings = "Hello world!"
 for (const greet of greetings) {
+    if (greet == " "){
+        continue  //use to eleminate extra-space , if we want to exit our loop after extra-space then we can use break;
+    }
     //console.log(`Each char is ${greet}`)
 }
 
