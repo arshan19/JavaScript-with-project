@@ -2,7 +2,7 @@
 
 // ["", "", ""]
 // [{}, {}, {}]
-
+//note: here we don't need to define the array length or from where we starting or loop and where to end , it does it automatically as well in these loops we discuss further on
 const arr = [1, 2, 3, 4, 5]
 
 for (const num of arr) {
