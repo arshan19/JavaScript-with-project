@@ -49,7 +49,7 @@ const chai =  () => {
 
 /* implicit return method (use for one line return arrow function)*/
 
-// if we use {} then we need to use return keyword whereas, when we use () we don't need return keyword to return some values
+// if we use {} then we need to use return keyword whereas, when we use () we don't need return keyword to return some values //example of this we use in filter in file 05_iterations/06_Six.js
 // const addTwo = (num1, num2) =>  num1 + num2 
 // const addTwo = (num1, num2) => ( num1 + num2 )
 
