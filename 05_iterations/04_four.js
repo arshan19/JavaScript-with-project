@@ -33,3 +33,5 @@ for (const key in programming) {
 // }
 
 //so the result is unique : we don't get anything here , we got no error and also no result also , because we can't iterate in maps , will discuss futher this in future.
+
+/* **note: when we want to use object then we use ForIn loop whereas when we want to use array then will use ForOf loop , sometimes other loops as well in array. */

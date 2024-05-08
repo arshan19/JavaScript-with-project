@@ -1,4 +1,5 @@
-// //for Each loop Discussion
+// //for Each loop Discussion , most commonly use loop
+
 // const coding = ["js", "ruby", "java", "python", "cpp"]
 
 // // coding.forEach( function (val){
